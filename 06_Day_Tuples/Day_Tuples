@@ -1,0 +1,30 @@
+tpl = ()
+brothers = ('john','amasi')
+sisters = ('esther','eunice')
+siblings = brothers + sisters
+parents = ('shobayo','funmi')
+family_members = parents + siblings
+
+fruits = ('apple','banana','tangerine','orange')
+vegetables = ('carrot','cucumber','lettuce','sweetcorn')
+animal_products = ('beef','chicken','pork','fish')
+
+food_stuff_tp = fruits + vegetables + animal_products
+
+food_stuff_lt = list(food_stuff_tp)
+middle_items = food_stuff_lt[4:8]
+print(middle_items)
+
+first_three_items = food_stuff_lt[0:3]
+print(first_three_items)
+last_three_items = food_stuff_lt[-3:]
+print(last_three_items)
+
+del food_stuff_tp
+
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+
+estonia = 'Estonia' in nordic_countries
+print(estonia)
+iceland = 'Iceland' in nordic_countries
+print(iceland)
